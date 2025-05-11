@@ -1,4 +1,5 @@
 import { Filtration } from '../Filtration/Filtration'
+import { Sorting } from '../Sorting/Sorting'
 import { TicketsList } from '../TicketsList/TicketsList'
 import styles from './Main.module.css'
 
@@ -8,7 +9,8 @@ export const Main = () => {
       <section>
         <Filtration />
       </section>
-      <section>sorting
+      <section>
+        <Sorting/>
         <TicketsList/>
         </section>
     </main>
