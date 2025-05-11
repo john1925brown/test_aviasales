@@ -2,8 +2,8 @@ import styles from './Header.module.css'
 
 export const Header = () => {
   return (
-    <div className={styles.logo__wrapper}>
+    <header className={styles.header}>
       <img src="/public/Logo.png" alt="logo" />
-    </div>
+    </header>
   )
 }
