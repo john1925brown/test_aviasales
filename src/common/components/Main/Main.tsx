@@ -9,7 +9,7 @@ export const Main = () => {
       <section>
         <Filtration />
       </section>
-      <section className={styles.aaa}>
+      <section className={styles.main__content}>
         <Sorting/>
         <TicketsList/>
         </section>

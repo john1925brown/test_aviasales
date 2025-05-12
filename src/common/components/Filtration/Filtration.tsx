@@ -1,5 +1,5 @@
 import styles from './Filtration.module.css'
-import { FilterItem } from './FilterItem'
+import { FilterItem } from './FilterItem/FilterItem'
 
 export const Filtration = () => {
   const filtrationTitles = [
@@ -13,9 +13,9 @@ export const Filtration = () => {
   return (
     <article className={styles.filtration}>
       <h3 className={styles.title}>Количество пересадок</h3>
-      <div>
-        {filtrationTitles.map((item) => {
-          return <FilterItem title={item} />
+      <div className={styles.filtration__list}>
+        {filtrationTitles.map((item, index) => {
+          return <FilterItem title={item} key={index} />
         })}
       </div>
     </article>

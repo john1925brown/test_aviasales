@@ -9,7 +9,7 @@ export const FilterItem = ({title}: FilterItemPropsType) => {
   return (
     <div className={styles.wrapper}>
       <Checkbox />
-      <span>{title}</span>
+      <span className={styles.filter__title}>{title}</span>
     </div>
   )
 }

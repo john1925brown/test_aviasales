@@ -1,6 +1,7 @@
 .sorting__group {
   width: 100%;
-  max-width: 500px;
+  margin-bottom: 22px;
+  display: flex;
 }
 
 .sorting__btn {
@@ -11,9 +12,10 @@
   background-color: #fff;
   color: #4a4a4a;
   border: 1px solid #dfe5ec;
-  padding: 15px;
+  padding: 15px 20px;
   border-top-left-radius: 6px;
   border-bottom-left-radius: 6px;
+  flex: 1;
 }
 
 .sorting__btn_active {
