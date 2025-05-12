@@ -1,0 +1,22 @@
+.info__group{
+  flex: 1;
+}
+
+.ticket__main {
+  display: flex;
+  justify-content: space-between;
+}
+
+.info {
+  font-size: 14px;
+  line-height: 1.5;
+  color: #4a4a4a;
+}
+
+.info__description {
+  font-size: 12px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: #a0b0b9;
+}

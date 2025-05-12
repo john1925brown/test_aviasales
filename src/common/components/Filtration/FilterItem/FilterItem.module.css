@@ -1,0 +1,11 @@
+.wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.filter__title {
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 1.53846;
+  color: #4a4a4a;
+}

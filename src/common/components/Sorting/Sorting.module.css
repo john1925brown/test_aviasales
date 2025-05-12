@@ -1,7 +1,24 @@
-.sorting__group{
-
+.sorting__group {
+  width: 100%;
+  margin-bottom: 22px;
+  display: flex;
 }
 
-.sorting__btn{
-  
+.sorting__btn {
+  line-height: 1.66667;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  text-align: center;
+  background-color: #fff;
+  color: #4a4a4a;
+  border: 1px solid #dfe5ec;
+  padding: 15px 20px;
+  border-top-left-radius: 6px;
+  border-bottom-left-radius: 6px;
+  flex: 1;
+}
+
+.sorting__btn_active {
+  background-color: #2196f3;
+  color: #fff;
 }
