@@ -3,6 +3,8 @@ import { Main } from '../common/components/Main/Main'
 import styles from './App.module.css'
 
 function App() {
+  // const filter = []
+
   return (
     <div className={styles.container}>
       <Header />
